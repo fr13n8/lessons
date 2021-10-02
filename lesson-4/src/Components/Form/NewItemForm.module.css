@@ -1,0 +1,30 @@
+.form__block {
+    padding: 10px;
+    width: 100%;
+}
+
+.form__block div {
+    display: inline-block;
+}
+
+.form__block div:not(:first-child) {
+    margin-left: 10px;
+}
+
+.inputBlock input {
+    border-color: burlywood;
+    margin-right: 5px;
+    outline: none;
+    box-shadow: none;
+}
+
+.inputBlock button {
+    border-radius: 5px;
+    border: 1px solid black;
+    outline: none;
+    background-color: #ffffff;
+    color: #000;
+    font-size: 14px;
+    padding: 0 10px;
+    cursor: pointer;
+}
