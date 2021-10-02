@@ -1,5 +1,5 @@
 import React from 'react'
-import ListItem from './ListItem/ListItem'
+import Item from './Item/Item'
 
 function ListComponent({articles, customStyles, customClickHandler}) {
     return (
@@ -12,7 +12,7 @@ function ListComponent({articles, customStyles, customClickHandler}) {
                             <ul>
                                 {list.items.map((item, id) => 
                             <li key={id}>
-                                <ListItem item={item} customClickHandler={customClickHandler} listId={list.id} customStyles={customStyles} />
+                                <Item item={item} customClickHandler={customClickHandler} listId={list.id} customStyles={customStyles} />
                             </li>)}
                         </ul>
                       </>

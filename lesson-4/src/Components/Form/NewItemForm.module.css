@@ -1,19 +1,21 @@
 .form__block {
     padding: 10px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.form__block div {
-    display: inline-block;
+.form__inner {
+    padding: 0 50px;
 }
 
-.form__block div:not(:first-child) {
+.form__inner div:not(:first-child) {
     margin-left: 10px;
 }
 
 .inputBlock input {
     border-color: burlywood;
-    margin-right: 5px;
     outline: none;
     box-shadow: none;
 }
@@ -27,4 +29,13 @@
     font-size: 14px;
     padding: 0 10px;
     cursor: pointer;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs textarea {
+    resize: none;
 }
