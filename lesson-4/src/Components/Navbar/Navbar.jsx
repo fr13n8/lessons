@@ -8,6 +8,9 @@ export default function Navbar() {
             <Link to='/todo'>
                 To todo
             </Link>
+            <Link to='/usememo'>
+                To usememo
+            </Link>
         </div>
     )
 }

@@ -1,5 +1,6 @@
 import View from "../List/Item/View/View"
 import ToDo from "../Todo/Todo"
+import UseMemo from "../UseMemo"
 
 const routes = [
     {
@@ -7,8 +8,12 @@ const routes = [
         component: ToDo
     },
     {
-        path: "/todo/:list/item/:item",
+        path: "/todo/:listId/item/:itemId",
         component: View
+    },
+    {
+        path: "/usememo",
+        component: UseMemo
     },
 ]
 
